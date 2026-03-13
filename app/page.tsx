@@ -75,6 +75,12 @@ export default function Home() {
               >
                 My Story
               </a>
+              <a
+                href="#problem"
+                className="rounded-2xl border border-white/15 bg-white/5 px-6 py-3 text-center font-semibold text-white transition hover:scale-[1.02]"
+                >
+                The Problem
+              </a>
             </div>
             <div className="mt-8 flex flex-wrap gap-6 text-sm text-slate-300">
               <div>
@@ -243,6 +249,136 @@ export default function Home() {
               Learn more
             </a>
           </div>
+          <section id="problem" className="mx-auto max-w-7xl px-6 py-20 md:px-10 scroll-mt-24">
+  <div className="mx-auto max-w-3xl text-center">
+    <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
+      The Problem
+    </div>
+    <h2 className="mt-3 text-3xl font-bold text-white md:text-5xl">
+      Gambling is being normalized while mental health is already under pressure.
+    </h2>
+    <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-300">
+      These charts use the closest widely reported U.S. age groups available in public datasets.
+    </p>
+  </div>
+
+  <div className="mt-12 grid gap-6 lg:grid-cols-3">
+    <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+      <h3 className="text-xl font-semibold text-white">Sports betting among ages 18–22</h3>
+      <p className="mt-2 text-sm text-slate-400">NCAA national survey</p>
+
+      <div className="mt-6 space-y-5">
+        <div>
+          <div className="mb-2 flex items-center justify-between text-sm text-slate-300">
+            <span>Engaged in at least one sports-betting activity</span>
+            <span className="font-semibold text-white">58%</span>
+          </div>
+          <div className="h-3 rounded-full bg-white/10">
+            <div className="h-3 w-[58%] rounded-full bg-emerald-400" />
+          </div>
+        </div>
+
+        <div>
+          <div className="mb-2 flex items-center justify-between text-sm text-slate-300">
+            <span>Reported at least one risky behavior</span>
+            <span className="font-semibold text-white">16%</span>
+          </div>
+          <div className="h-3 rounded-full bg-white/10">
+            <div className="h-3 w-[16%] rounded-full bg-cyan-300" />
+          </div>
+        </div>
+
+        <div>
+          <div className="mb-2 flex items-center justify-between text-sm text-slate-300">
+            <span>Lost more than $500 in a single day</span>
+            <span className="font-semibold text-white">6%</span>
+          </div>
+          <div className="h-3 rounded-full bg-white/10">
+            <div className="h-3 w-[6%] rounded-full bg-indigo-300" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+      <h3 className="text-xl font-semibold text-white">Mental health among ages 18–25</h3>
+      <p className="mt-2 text-sm text-slate-400">SAMHSA 2023</p>
+
+      <div className="mt-6 space-y-5">
+        <div>
+          <div className="mb-2 flex items-center justify-between text-sm text-slate-300">
+            <span>Any mental illness in past year</span>
+            <span className="font-semibold text-white">33.8%</span>
+          </div>
+          <div className="h-3 rounded-full bg-white/10">
+            <div className="h-3 w-[33.8%] rounded-full bg-emerald-400" />
+          </div>
+        </div>
+
+        <div>
+          <div className="mb-2 flex items-center justify-between text-sm text-slate-300">
+            <span>Serious mental illness in past year</span>
+            <span className="font-semibold text-white">10.3%</span>
+          </div>
+          <div className="h-3 rounded-full bg-white/10">
+            <div className="h-3 w-[10.3%] rounded-full bg-cyan-300" />
+          </div>
+        </div>
+
+        <div>
+          <div className="mb-2 flex items-center justify-between text-sm text-slate-300">
+            <span>Any mental illness or substance use disorder</span>
+            <span className="font-semibold text-white">46.9%</span>
+          </div>
+          <div className="h-3 rounded-full bg-white/10">
+            <div className="h-3 w-[46.9%] rounded-full bg-indigo-300" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+      <h3 className="text-xl font-semibold text-white">Why young adults stand out</h3>
+      <p className="mt-2 text-sm text-slate-400">NCPG + Sacred Heart 2025</p>
+
+      <div className="mt-6 space-y-5">
+        <div>
+          <div className="mb-2 flex items-center justify-between text-sm text-slate-300">
+            <span>Ages 18–34 reporting concerning gambling behavior</span>
+            <span className="font-semibold text-white">15%</span>
+          </div>
+          <div className="h-3 rounded-full bg-white/10">
+            <div className="h-3 w-[15%] rounded-full bg-emerald-400" />
+          </div>
+        </div>
+
+        <div>
+          <div className="mb-2 flex items-center justify-between text-sm text-slate-300">
+            <span>Ages 18–34 likely to bet in the next year</span>
+            <span className="font-semibold text-white">55.9%</span>
+          </div>
+          <div className="h-3 rounded-full bg-white/10">
+            <div className="h-3 w-[55.9%] rounded-full bg-cyan-300" />
+          </div>
+        </div>
+
+        <div>
+          <div className="mb-2 flex items-center justify-between text-sm text-slate-300">
+            <span>Ages 18–34 who know someone harmed by sports gambling</span>
+            <span className="font-semibold text-white">38.2%</span>
+          </div>
+          <div className="h-3 rounded-full bg-white/10">
+            <div className="h-3 w-[38.2%] rounded-full bg-indigo-300" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p className="mx-auto mt-8 max-w-4xl text-center text-sm leading-6 text-slate-400">
+    Sources: NCAA 2023 sports wagering survey of 18–22-year-olds; SAMHSA 2023 NSDUH; National Council on Problem Gambling 2025 NGAGE survey; Sacred Heart 2025 nationwide sports gambling poll.
+  </p>
+</section>
         </div>
       </section>
       <section id="story" className="mx-auto max-w-4xl px-6 py-20 scroll-mt-24 min-h-screen">
