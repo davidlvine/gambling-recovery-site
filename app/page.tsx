@@ -56,7 +56,9 @@ export default function Home() {
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <a
-                href="#donate"
+                href="https://buy.stripe.com/28E4gA5s19TF8Ju7Wi57W00"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="rounded-2xl bg-emerald-400 px-6 py-3 text-center font-semibold text-slate-950 shadow-xl transition hover:scale-[1.02]"
               >
                 Donate to the mission
