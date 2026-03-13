@@ -225,7 +225,7 @@ export default function Home() {
           </p>
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
             <a
-              href="https://buy.stripe.com/test_00g000000000000000"
+              href="https://buy.stripe.com/28E4gA5s19TF8Ju7Wi57W00"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-2xl bg-emerald-400 px-6 py-3 font-semibold text-slate-950 transition hover:scale-[1.02]"
