@@ -69,6 +69,17 @@ export default function Home() {
               >
                 Read the vision
               </a>
+
+              <a
+                href="https://buy.stripe.com/28E4gA5s19TF8Ju7Wi57W00"
+              >
+                Donate to the mission
+              </a>          
+                <a
+                href="#story"
+              >
+                Read the vision
+              </a>
             </div>
 
             <div className="mt-8 flex flex-wrap gap-6 text-sm text-slate-300">
