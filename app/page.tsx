@@ -327,7 +327,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="rounded-3xl border border-white/10 bg-slate-900/80 p-6">
+          <div className="mx-auto mt-10 w-full max-w-3xl rounded-3xl border border-white/10 bg-slate-900/80 p-6">
             <h3 className="text-xl font-semibold">What the funding supports</h3>
             <ul className="mt-5 space-y-3 text-slate-300">
               {impactPoints.map((point) => (
