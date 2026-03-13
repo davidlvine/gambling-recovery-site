@@ -184,72 +184,7 @@ export default function Home() {
       <section id="vision" className="mx-auto max-w-7xl px-6 py-16 md:px-10">
         <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:px-10 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
-            <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">The vision</div>
-            <h2 className="mt-3 text-3xl font-bold md:text-4xl">We want to help young people stop gambling and start building.</h2>
-            <p className="mt-5 leading-8 text-slate-300">
-              This campaign funds the creation of an app focused on intervention, accountability, and forward momentum. Instead of shame-based messaging, the experience is designed around clarity, hope, discipline, and purpose.
-            </p>
-            <p className="mt-4 leading-8 text-slate-300">
-              The goal is simple: help users replace destructive habits with productive action. That can mean studying, working, training, growing in faith, building a business, repairing relationships, or simply living with more peace.
-            </p>
-          </div>
-
-          <div className="rounded-3xl border border-white/10 bg-slate-900/80 p-6">
-            <h3 className="text-xl font-semibold">What the funding supports</h3>
-            <ul className="mt-5 space-y-3 text-slate-300">
-              {impactPoints.map((point) => (
-                <li key={point} className="flex items-start gap-3">
-                  <span className="mt-1 inline-block h-2.5 w-2.5 rounded-full bg-emerald-400" />
-                  <span>{point}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
-        <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
-          <div>
-            <div className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-300">Funding roadmap</div>
-            <h2 className="mt-3 text-3xl font-bold md:text-4xl">Clear milestones from idea to launch.</h2>
-          </div>
-          <p className="max-w-xl leading-7 text-slate-300">
-            The $50,000 target covers the essential phases needed to bring a credible, helpful, and scalable product to life.
-          </p>
-        </div>
-
-        <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
-          {milestones.map((milestone) => (
-            <div key={milestone.amount} className="rounded-3xl border border-white/10 bg-white/5 p-6">
-              <div className="text-2xl font-bold text-emerald-300">{milestone.amount}</div>
-              <p className="mt-3 leading-7 text-slate-300">{milestone.label}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="border-t border-white/10 bg-slate-900">
-        <div className="mx-auto max-w-5xl px-6 py-16 text-center md:px-10">
-          <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">Join the mission</div>
-          <h2 className="mt-3 text-3xl font-bold md:text-5xl">Help fund a tool that gives young people their future back.</h2>
-          <p className="mx-auto mt-5 max-w-2xl leading-8 text-slate-300">
-            Back the vision, share the campaign, and help us build something that turns wasted hours into real progress.
-          </p>
-          <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
-            <a
-              href="https://buy.stripe.com/28E4gA5s19TF8Ju7Wi57W00"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-2xl bg-emerald-400 px-6 py-3 font-semibold text-slate-950 transition hover:scale-[1.02]"
-            >
-              Donate now
-            </a>
-            <a href="#story" className="rounded-2xl border border-white/10 bg-white/5 px-6 py-3 font-semibold transition hover:bg-white/10">
-              Learn more
-            </a>
-          </div>
-          <div className="mx-auto my-24 max-w-6xl px-6">
+            <div className="mx-auto my-24 max-w-6xl px-6">
   <div className="h-px w-full bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent"></div>
 </div>
           <section id="problem" className="mx-auto max-w-7xl px-6 py-20 md:px-10 scroll-mt-24">
@@ -382,6 +317,71 @@ export default function Home() {
     Sources: NCAA 2023 sports wagering survey of 18–22-year-olds; SAMHSA 2023 NSDUH; National Council on Problem Gambling 2025 NGAGE survey; Sacred Heart 2025 nationwide sports gambling poll.
   </p>
 </section>
+            <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">The vision</div>
+            <h2 className="mt-3 text-3xl font-bold md:text-4xl">We want to help young people stop gambling and start building.</h2>
+            <p className="mt-5 leading-8 text-slate-300">
+              This campaign funds the creation of an app focused on intervention, accountability, and forward momentum. Instead of shame-based messaging, the experience is designed around clarity, hope, discipline, and purpose.
+            </p>
+            <p className="mt-4 leading-8 text-slate-300">
+              The goal is simple: help users replace destructive habits with productive action. That can mean studying, working, training, growing in faith, building a business, repairing relationships, or simply living with more peace.
+            </p>
+          </div>
+
+          <div className="rounded-3xl border border-white/10 bg-slate-900/80 p-6">
+            <h3 className="text-xl font-semibold">What the funding supports</h3>
+            <ul className="mt-5 space-y-3 text-slate-300">
+              {impactPoints.map((point) => (
+                <li key={point} className="flex items-start gap-3">
+                  <span className="mt-1 inline-block h-2.5 w-2.5 rounded-full bg-emerald-400" />
+                  <span>{point}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
+        <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+          <div>
+            <div className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-300">Funding roadmap</div>
+            <h2 className="mt-3 text-3xl font-bold md:text-4xl">Clear milestones from idea to launch.</h2>
+          </div>
+          <p className="max-w-xl leading-7 text-slate-300">
+            The $50,000 target covers the essential phases needed to bring a credible, helpful, and scalable product to life.
+          </p>
+        </div>
+
+        <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+          {milestones.map((milestone) => (
+            <div key={milestone.amount} className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <div className="text-2xl font-bold text-emerald-300">{milestone.amount}</div>
+              <p className="mt-3 leading-7 text-slate-300">{milestone.label}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="border-t border-white/10 bg-slate-900">
+        <div className="mx-auto max-w-5xl px-6 py-16 text-center md:px-10">
+          <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">Join the mission</div>
+          <h2 className="mt-3 text-3xl font-bold md:text-5xl">Help fund a tool that gives young people their future back.</h2>
+          <p className="mx-auto mt-5 max-w-2xl leading-8 text-slate-300">
+            Back the vision, share the campaign, and help us build something that turns wasted hours into real progress.
+          </p>
+          <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
+            <a
+              href="https://buy.stripe.com/28E4gA5s19TF8Ju7Wi57W00"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-2xl bg-emerald-400 px-6 py-3 font-semibold text-slate-950 transition hover:scale-[1.02]"
+            >
+              Donate now
+            </a>
+            <a href="#story" className="rounded-2xl border border-white/10 bg-white/5 px-6 py-3 font-semibold transition hover:bg-white/10">
+              Learn more
+            </a>
+          </div>
         </div>
       </section>
       <section id="story" className="mx-auto max-w-4xl px-6 py-20 scroll-mt-24 min-h-screen">
