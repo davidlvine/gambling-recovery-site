@@ -63,22 +63,19 @@ export default function Home() {
               >
                 Donate to the mission
               </a>
+
               <a
-                href="#story"
-                className="rounded-2xl border border-white/15 bg-white/5 px-6 py-3 text-center font-semibold text-white transition hover:bg-white/10"
+                href="#vision"
+                className="rounded-2xl border border-white/15 bg-white/5 px-6 py-3 text-center font-semibold text-white transition hover:scale-[1.02]"
               >
                 Read the vision
               </a>
 
               <a
-                href="https://buy.stripe.com/28E4gA5s19TF8Ju7Wi57W00"
-              >
-                Donate to the mission
-              </a>          
-                <a
                 href="#story"
+                className="rounded-2xl border border-white/15 bg-white/5 px-6 py-3 text-center font-semibold text-white transition hover:scale-[1.02]"
               >
-                Read the vision
+                My Story
               </a>
             </div>
 
