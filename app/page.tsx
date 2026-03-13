@@ -327,22 +327,11 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="mx-auto mt-10 w-full max-w-3xl rounded-3xl border border-white/10 bg-slate-900/80 p-6">
-            <h3 className="text-xl font-semibold">What the funding supports</h3>
-            <ul className="mt-5 space-y-3 text-slate-300">
-              {impactPoints.map((point) => (
-                <li key={point} className="flex items-start gap-3">
-                  <span className="mt-1 inline-block h-2.5 w-2.5 rounded-full bg-emerald-400" />
-                  <span>{point}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
-          <div className="flex flex-col gap-6">
+         <div className="flex flex-col gap-6">
           <div>
             <div className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-300">Funding roadmap</div>
             <h2 className="mt-3 text-3xl font-bold md:text-4xl">Clear milestones from idea to launch.</h2>
@@ -360,6 +349,7 @@ export default function Home() {
             </div>
           ))}
         </div>
+        
       </section>
 
       <section className="border-t border-white/10 bg-slate-900">
