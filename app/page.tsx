@@ -200,7 +200,7 @@ export default function Home() {
     </p>
   </div>
 
-  <div className="mt-12 grid gap-6 lg:grid-cols-3">
+  <div className="mx-auto mt-12 grid max-w-6xl gap-8 md:grid-cols-2 lg:grid-cols-3">
     <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
       <h3 className="text-xl font-semibold text-white">Sports betting among ages 18–22</h3>
       <p className="mt-2 text-sm text-slate-400">NCAA national survey</p>
