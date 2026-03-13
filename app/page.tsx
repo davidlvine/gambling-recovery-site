@@ -112,7 +112,7 @@ export default function Home() {
               </p>
               <div className="mt-5 grid gap-3 sm:grid-cols-3">
                 <a
-                  href="https://buy.stripe.com/test_00g000000000000000"
+                  href="https://buy.stripe.com/28E4gA5s19TF8Ju7Wi57W00"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-center font-semibold transition hover:bg-white/10"
@@ -120,7 +120,7 @@ export default function Home() {
                   Donate $25
                 </a>
                 <a
-                  href="https://buy.stripe.com/test_00g000000000000000"
+                  href="https://buy.stripe.com/28E4gA5s19TF8Ju7Wi57W00"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-center font-semibold transition hover:bg-white/10"
@@ -128,7 +128,7 @@ export default function Home() {
                   Donate $100
                 </a>
                 <a
-                  href="https://buy.stripe.com/test_00g000000000000000"
+                  href="https://buy.stripe.com/28E4gA5s19TF8Ju7Wi57W00"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-center font-semibold transition hover:bg-white/10"
@@ -137,7 +137,7 @@ export default function Home() {
                 </a>
               </div>
               <a
-                href="https://buy.stripe.com/test_00g000000000000000"
+                href="https://buy.stripe.com/28E4gA5s19TF8Ju7Wi57W00"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 block w-full rounded-2xl bg-white px-4 py-3 text-center font-semibold text-slate-950 transition hover:opacity-90"
