@@ -63,7 +63,6 @@ export default function Home() {
               >
                 Donate to the mission
               </a>
-
               <a
                 href="#vision"
                 className="rounded-2xl border border-white/15 bg-white/5 px-6 py-3 text-center font-semibold text-white transition hover:scale-[1.02]"
@@ -77,7 +76,6 @@ export default function Home() {
                 My Story
               </a>
             </div>
-
             <div className="mt-8 flex flex-wrap gap-6 text-sm text-slate-300">
               <div>
                 <div className="text-2xl font-bold text-white">50k</div>
@@ -177,7 +175,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="story" className="border-y border-white/10 bg-white/5">
+      <section id="vision" className="mx-auto max-w-7xl px-6 py-16 md:px-10">
         <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:px-10 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
             <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">The vision</div>
@@ -247,7 +245,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="story" className="mx-auto max-w-4xl px-6 py-20">
+      <section id="story" className="mx-auto max-w-4xl px-6 py-20 scroll-mt-24 min-h-screen">
   <h2 className="text-center text-3xl font-bold text-cyan-300">My Story</h2>
 
   <p className="mt-8 text-lg leading-8 text-slate-300">
@@ -260,6 +258,7 @@ Every contribution helps move this mission forward and brings us closer to build
 
   </p>
 </section>
+<div className="h-24" />
     </main>
   );
 }
