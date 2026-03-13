@@ -251,24 +251,14 @@ export default function Home() {
       <section id="story" className="mx-auto max-w-4xl px-6 py-20">
   <h2 className="text-3xl font-bold text-white">My Story</h2>
 
-  <p className="mt-6 text-lg leading-8 text-slate-300">
-    My name is David, and this mission is deeply personal to me. During my time in college, I struggled with gambling as it became increasingly normalized among my peers. What often began as casual entertainment slowly replaced many of the habits that help young men grow into disciplined adults.
-Things that once brought energy and fulfillment—going to the gym, running, spending time with friends, calling loved ones, and pursuing meaningful goals—began to fade as the excitement of gambling took their place. I experienced this shift myself and saw many around me go through the same thing.
-By God's grace, I was able to step away from that cycle and reclaim control of my time, focus, and direction. That experience changed how I view this issue and inspired me to take action.
-  </p>
-
   <p className="mt-8 text-lg leading-8 text-slate-300">
-    David’s Story
 My name is David, and this mission is deeply personal to me. During my time in college, I experienced firsthand the growing influence of gambling among young adults. What began as something that seemed casual and normalized quickly became something much more destructive. I watched as the culture surrounding me began to shift, and many of my peers slowly drifted away from the habits and disciplines that help young men grow into responsible adults.
-Activities that once brought energy and fulfillment—going to the gym, running, sharing meals with friends, calling family members, and pursuing meaningful goals—gradually lost their place. In their place, the constant stimulation and excitement of gambling began to dominate attention and priorities. I experienced this same struggle myself. The excitement of the next bet can easily replace the quieter but far more meaningful rewards that come from discipline, growth, and real relationships.
+Activities that once brought energy and fulfillment like going to the gym, running, reading, sharing meals with friends, calling family members, and pursuing meaningful goals—gradually lost their place. Instead, the constant stimulation and excitement of gambling began to dominate attention and priorities. I experienced this same struggle myself. The excitement of the next bet can easily replace the quieter but far more meaningful rewards that come from discipline, growth, and real relationships.
 By the grace of God, I was able to step away from that cycle and regain control of my time, focus, and direction. That experience changed how I view the issue entirely. It showed me how powerful and destructive gambling can become when it is normalized within a culture that should instead be encouraging growth, responsibility, and purpose.
 Since finishing university, I have seen this problem intensify even further. What once existed on the margins has become increasingly integrated into everyday life for many young adults. Sports betting, mobile apps, and constant promotion have made it easier than ever for people to fall into habits that quietly consume their time, energy, and potential.
 This project was born from the desire to address that problem. The goal of this app is to help young adults step away from gambling, rebuild discipline, and redirect their energy toward meaningful progress in their lives. Whether that means focusing on health, strengthening relationships, pursuing meaningful work, or simply reclaiming the time that gambling once consumed, the mission is to help people regain control of their future.
 Every contribution helps move this mission forward and brings us closer to building a tool that can support thousands of young adults seeking a healthier and more purposeful path.
-  </p>
 
-  <p className="mt-4 text-lg leading-8 text-slate-300">
-    LONG VERSION PARAGRAPH 2
   </p>
 </section>
     </main>
