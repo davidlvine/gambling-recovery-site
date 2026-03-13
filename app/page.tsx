@@ -342,7 +342,7 @@ export default function Home() {
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
-        <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+          <div className="flex flex-col gap-6">
           <div>
             <div className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-300">Funding roadmap</div>
             <h2 className="mt-3 text-3xl font-bold md:text-4xl">Clear milestones from idea to launch.</h2>
