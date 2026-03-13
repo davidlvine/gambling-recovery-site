@@ -249,6 +249,9 @@ export default function Home() {
               Learn more
             </a>
           </div>
+          <div className="mx-auto my-24 max-w-6xl px-6">
+  <div className="h-px w-full bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent"></div>
+</div>
           <section id="problem" className="mx-auto max-w-7xl px-6 py-20 md:px-10 scroll-mt-24">
   <div className="mx-auto max-w-3xl text-center">
     <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
