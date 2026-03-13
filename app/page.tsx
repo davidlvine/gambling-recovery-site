@@ -117,7 +117,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-center font-semibold transition hover:bg-white/10"
                 >
-                  Donate $25
+                  Donate $100
                 </a>
                 <a
                   href="https://buy.stripe.com/28E4gA5s19TF8Ju7Wi57W00"
@@ -125,7 +125,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-center font-semibold transition hover:bg-white/10"
                 >
-                  Donate $100
+                  Donate $200
                 </a>
                 <a
                   href="https://buy.stripe.com/28E4gA5s19TF8Ju7Wi57W00"
