@@ -185,6 +185,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:px-10 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
             <div className="mx-auto my-24 max-w-6xl px-6">
+  <div className="my-24 w-full">
   <div className="h-px w-full bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent"></div>
 </div>
           <section id="problem" className="mx-auto max-w-7xl px-6 py-28 md:px-10 scroll-mt-24">
@@ -199,7 +200,7 @@ export default function Home() {
       These charts use the closest widely reported U.S. age groups available in public datasets.
     </p>
   </div>
-  <div className="mx-auto mt-16 grid w-full max-w-7xl gap-8 lg:grid-cols-3">
+  <div className="mt-16 grid w-full gap-12 px-12 lg:grid-cols-3">
   <div className="w-full min-w-0 rounded-3xl border border-white/10 bg-white/5 p-8">
     <div className="h-full rounded-3xl border border-white/10 bg-white/5 p-8">
       <p className="mt-2 text-sm text-slate-400">NCAA national survey</p>
