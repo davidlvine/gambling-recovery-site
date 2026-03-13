@@ -187,8 +187,11 @@ export default function Home() {
             <div className="mx-auto my-24 max-w-6xl px-6">
   <div className="my-24 w-full">
   <div className="h-px w-full bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent"></div>
+<div className="my-24 w-full">
+  <div className="h-px w-full bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent" />
 </div>
-          <section id="problem" className="mx-auto max-w-7xl px-6 py-28 md:px-10 scroll-mt-24">
+
+<section id="problem" className="mx-auto max-w-7xl px-6 py-28 md:px-10 scroll-mt-24">
   <div className="mx-auto max-w-3xl text-center">
     <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
       The Problem
@@ -200,9 +203,10 @@ export default function Home() {
       These charts use the closest widely reported U.S. age groups available in public datasets.
     </p>
   </div>
-  <div className="mt-16 grid w-full gap-12 px-12 lg:grid-cols-3">
-  <div className="w-full min-w-0 rounded-3xl border border-white/10 bg-white/5 p-8">
-    <div className="h-full rounded-3xl border border-white/10 bg-white/5 p-8">
+
+  <div className="mt-16 grid w-full gap-12 lg:grid-cols-3">
+    <div className="rounded-3xl border border-white/10 bg-white/5 p-8">
+      <h3 className="text-2xl font-semibold text-white">Sports betting among ages 18–22</h3>
       <p className="mt-2 text-sm text-slate-400">NCAA national survey</p>
 
       <div className="mt-6 space-y-5">
@@ -238,8 +242,8 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
-      <h3 className="text-xl font-semibold text-white">Mental health among ages 18–25</h3>
+    <div className="rounded-3xl border border-white/10 bg-white/5 p-8">
+      <h3 className="text-2xl font-semibold text-white">Mental health among ages 18–25</h3>
       <p className="mt-2 text-sm text-slate-400">SAMHSA 2023</p>
 
       <div className="mt-6 space-y-5">
@@ -275,8 +279,8 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
-      <h3 className="text-xl font-semibold text-white">Why young adults stand out</h3>
+    <div className="rounded-3xl border border-white/10 bg-white/5 p-8">
+      <h3 className="text-2xl font-semibold text-white">Why young adults stand out</h3>
       <p className="mt-2 text-sm text-slate-400">NCPG + Sacred Heart 2025</p>
 
       <div className="mt-6 space-y-5">
@@ -312,24 +316,26 @@ export default function Home() {
       </div>
     </div>
   </div>
-        <p className="mx-auto mt-8 max-w-4xl text-center text-sm leading-6 text-slate-400">
-        Sources: NCAA 2023 sports wagering survey of 18–22-year-olds; SAMHSA 2023 NSDUH; National Council on Problem Gambling; Sacred Heart 2025.
-      </p>
-    </section>
-    <section id="vision" className="mx-auto max-w-7xl px-6 py-16 md:px-10">
-      <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
-        The vision
-      </div>
-      <h2 className="mt-3 text-3xl font-bold md:text-4xl">
-        We want to help young people stop gambling and start building.
-      </h2>
-      <p className="mt-5 leading-8 text-slate-300">
-        This campaign funds the creation of an app focused on intervention, accountability, and forward momentum.
-      </p>
-      <p className="mt-4 leading-8 text-slate-300">
-        The goal is simple: help users replace destructive habits with productive action.
-      </p>
-    </section>
+
+  <p className="mx-auto mt-8 max-w-4xl text-center text-sm leading-6 text-slate-400">
+    Sources: NCAA 2023 sports wagering survey of 18–22-year-olds; SAMHSA 2023 NSDUH; National Council on Problem Gambling; Sacred Heart 2025.
+  </p>
+</section>
+
+<section id="vision" className="mx-auto max-w-7xl px-6 py-16 md:px-10">
+  <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
+    The vision
+  </div>
+  <h2 className="mt-3 text-3xl font-bold md:text-4xl">
+    We want to help young people stop gambling and start building.
+  </h2>
+  <p className="mt-5 leading-8 text-slate-300">
+    This campaign funds the creation of an app focused on intervention, accountability, and forward momentum.
+  </p>
+  <p className="mt-4 leading-8 text-slate-300">
+    The goal is simple: help users replace destructive habits with productive action.
+  </p>
+</section>
       <section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
          <div className="flex flex-col gap-6">
           <div>
