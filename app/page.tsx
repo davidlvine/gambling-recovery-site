@@ -140,9 +140,9 @@ export default function Home() {
                 href="https://buy.stripe.com/28E4gA5s19TF8Ju7Wi57W00"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-4 block w-full rounded-2xl bg-white px-4 py-3 text-center font-semibold text-slate-950 transition hover:opacity-90"
+                className="mt-4 block w-full rounded-2xl bg-white px-4 py-3 text-center font-semibold text-slate-950 transition"
               >
-                Custom donation
+                Donate custom amount
               </a>
             </div>
           </div>
