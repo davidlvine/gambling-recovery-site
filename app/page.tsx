@@ -1,5 +1,5 @@
 export default function Home() {
-  const raised = 12750;
+  const raised = 8200;
   const goal = 50000;
   const progress = Math.round((raised / goal) * 100);
 
