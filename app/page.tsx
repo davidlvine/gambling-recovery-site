@@ -248,6 +248,25 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section id="story" className="mx-auto max-w-4xl px-6 py-20">
+  <h2 className="text-3xl font-bold text-white">My Story</h2>
+
+  <p className="mt-6 text-lg leading-8 text-slate-300">
+    Gambling addiction stole time, focus, and discipline from my life and from many people around me.
+    I began realizing how much potential was being lost to something designed to keep people trapped.
+  </p>
+
+  <p className="mt-4 text-lg leading-8 text-slate-300">
+    That realization pushed me to start building a tool that helps young adults step away from gambling,
+    rebuild discipline, and redirect their energy toward a productive future. This project exists to help
+    people reclaim their time and take control of their lives again.
+  </p>
+
+  <p className="mt-4 text-lg leading-8 text-slate-300">
+    This mission is personal, and every donation helps move the project closer to helping thousands
+    of young adults break free from gambling addiction.
+  </p>
+</section>
     </main>
   );
 }
