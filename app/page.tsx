@@ -70,7 +70,6 @@ export default function Home() {
               >
                 Read the vision
               </a>
-
               <a
                 href="#story"
                 className="rounded-2xl border border-white/15 bg-white/5 px-6 py-3 text-center font-semibold text-white transition hover:scale-[1.02]"
