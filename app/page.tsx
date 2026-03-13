@@ -187,7 +187,7 @@ export default function Home() {
             <div className="mx-auto my-24 max-w-6xl px-6">
   <div className="h-px w-full bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent"></div>
 </div>
-          <section id="problem" className="mx-auto max-w-7xl px-6 py-20 md:px-10 scroll-mt-24">
+          <section id="problem" className="mx-auto max-w-7xl px-6 py-28 md:px-10 scroll-mt-24">
   <div className="mx-auto max-w-3xl text-center">
     <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
       The Problem
@@ -199,8 +199,7 @@ export default function Home() {
       These charts use the closest widely reported U.S. age groups available in public datasets.
     </p>
   </div>
-
-  <div className="mx-auto mt-12 grid max-w-6xl gap-8 md:grid-cols-2 lg:grid-cols-3">
+  <div className="mx-auto mt-16 grid max-w-6xl gap-10 md:grid-cols-2 lg:grid-cols-3">
     <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
       <h3 className="text-xl font-semibold text-white">Sports betting among ages 18–22</h3>
       <p className="mt-2 text-sm text-slate-400">NCAA national survey</p>
