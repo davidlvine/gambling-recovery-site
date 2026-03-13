@@ -312,24 +312,24 @@ export default function Home() {
       </div>
     </div>
   </div>
-
-  <p className="mx-auto mt-8 max-w-4xl text-center text-sm leading-6 text-slate-400">
-    Sources: NCAA 2023 sports wagering survey of 18–22-year-olds; SAMHSA 2023 NSDUH; National Council on Problem Gambling 2025 NGAGE survey; Sacred Heart 2025 nationwide sports gambling poll.
- </p>
- </section>
- <section id="vision" className="mx-auto max-w-7xl px-6 py-16 md:px-10">
-   <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">The vision</div>
-  <h2 className="mt-3 text-3xl font-bold md:text-4xl">We want to help young people stop gambling and start building.</h2>
-   <p className="mt-5 leading-8 text-slate-300">
-     This campaign funds the creation of an app focused on intervention, accountability, and forward momentum.
-  </p>
-   <p className="mt-4 leading-8 text-slate-300">
-     The goal is simple: help users replace destructive habits with productive action.
-  </p>
-   ...
- ...
-</section>
-
+        <p className="mx-auto mt-8 max-w-4xl text-center text-sm leading-6 text-slate-400">
+        Sources: NCAA 2023 sports wagering survey of 18–22-year-olds; SAMHSA 2023 NSDUH; National Council on Problem Gambling; Sacred Heart 2025.
+      </p>
+    </section>
+    <section id="vision" className="mx-auto max-w-7xl px-6 py-16 md:px-10">
+      <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
+        The vision
+      </div>
+      <h2 className="mt-3 text-3xl font-bold md:text-4xl">
+        We want to help young people stop gambling and start building.
+      </h2>
+      <p className="mt-5 leading-8 text-slate-300">
+        This campaign funds the creation of an app focused on intervention, accountability, and forward momentum.
+      </p>
+      <p className="mt-4 leading-8 text-slate-300">
+        The goal is simple: help users replace destructive habits with productive action.
+      </p>
+    </section>
       <section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
          <div className="flex flex-col gap-6">
           <div>
