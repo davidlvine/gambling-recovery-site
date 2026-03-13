@@ -199,9 +199,9 @@ export default function Home() {
       These charts use the closest widely reported U.S. age groups available in public datasets.
     </p>
   </div>
-  <div className="mx-auto mt-16 grid max-w-6xl gap-10 md:grid-cols-2 lg:grid-cols-3">
+  <div className="mx-auto mt-16 grid w-full max-w-7xl gap-8 lg:grid-cols-3">
     <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
-      <h3 className="text-xl font-semibold text-white">Sports betting among ages 18–22</h3>
+    <div className="h-full rounded-3xl border border-white/10 bg-white/5 p-8">
       <p className="mt-2 text-sm text-slate-400">NCAA national survey</p>
 
       <div className="mt-6 space-y-5">
