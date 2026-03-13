@@ -180,7 +180,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-
       <section id="vision" className="mx-auto max-w-7xl px-6 py-16 md:px-10">
         <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:px-10 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
@@ -390,10 +389,7 @@ By the grace of God, I was able to step away from that cycle and regain control 
 Since finishing university, I have seen this problem intensify even further. What once existed on the margins has become increasingly integrated into everyday life for many young adults. Sports betting, mobile apps, and constant promotion have made it easier than ever for people to fall into habits that quietly consume their time, energy, and potential.
 This project was born from the desire to address that problem. The goal of this app is to help young adults step away from gambling, rebuild discipline, and redirect their energy toward meaningful progress in their lives. Whether that means focusing on health, strengthening relationships, pursuing meaningful work, or simply reclaiming the time that gambling once consumed, the mission is to help people regain control of their future.
 Every contribution helps move this mission forward and brings us closer to building a tool that can support thousands of young adults seeking a healthier and more purposeful path.
-
-  </p>
+</p>
 </section>
-<div className="h-24" />
-    </main>
-  );
-}
+      <div className="h-24" />
+    </main> 
