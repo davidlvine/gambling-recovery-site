@@ -338,18 +338,18 @@ export default function Home() {
     </p>
   </div>
 </section>
-      <section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
-         <div className="flex flex-col gap-6">
+      <section className="w-full px-6 py-20 md:px-10">
+  <div className="mx-auto max-w-6xl text-center">
           <div>
             <div className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-300">Funding roadmap</div>
             <h2 className="mt-3 text-3xl font-bold md:text-4xl">Clear milestones from idea to launch.</h2>
           </div>
-          <p className="max-w-xl leading-7 text-slate-300">
+          <p className="mx-auto max-w-2xl leading-7 text-slate-300">
             The $50,000 target covers the essential phases needed to bring a credible, helpful, and scalable product to life.
           </p>
         </div>
 
-        <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+        <div className="mx-auto mt-16 grid max-w-6xl gap-8 md:grid-cols-2 lg:grid-cols-4">
           {milestones.map((milestone) => (
             <div key={milestone.amount} className="rounded-3xl border border-white/10 bg-white/5 p-6">
               <div className="text-2xl font-bold text-emerald-300">{milestone.amount}</div>
