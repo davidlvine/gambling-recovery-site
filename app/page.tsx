@@ -162,16 +162,16 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
-        <div className="max-w-2xl">
+      <section className="w-full bg-slate-900 border-y border-white/10 px-6 py-24 md:px-10 scroll-mt-24">
+        <div className="mx-auto max-w-6xl text-center">
           <div className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-300">Why this matters</div>
           <h2 className="mt-3 text-3xl font-bold md:text-4xl">A modern recovery app for a generation losing time, money, and momentum.</h2>
-          <p className="mt-4 leading-8 text-slate-300">
+          <p className="mx-auto mt-4 max-w-3xl leading-8 text-slate-300">
             Gambling addiction is not just about money lost. It affects focus, ambition, relationships, peace of mind, and the ability to build a meaningful future. This app is meant to meet young people where they are and help them move toward something better.
           </p>
         </div>
 
-        <div className="mx-auto mt-12 grid max-w-6xl gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mx-auto mt-12 grid max-w-6xl gap-8 md:grid-cols-3">
           {features.map((feature) => (
             <div key={feature.title} className="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-lg">
               <h3 className="text-xl font-semibold">{feature.title}</h3>
