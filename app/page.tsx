@@ -181,14 +181,11 @@ export default function Home() {
         </div>
       </section>
       <section id="vision" className="mx-auto max-w-7xl px-6 py-16 md:px-10">
-  <div className="mx-auto my-24 max-w-6xl px-6">
-    <div className="my-24 w-full">
-      <div className="h-px w-full bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent" />
-    </div>
-    <div className="my-24 w-full">
-      <div className="h-px w-full bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent" />
-    </div>
+  <div className="mx-auto my-12 max-w-6xl px-6">
+  <div className="w-full">
+    <div className="h-px w-full bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent" />
   </div>
+</div>
 </section>
 
 <section id="problem" className="w-full px-6 py-28 md:px-10 scroll-mt-24">
