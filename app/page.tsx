@@ -324,13 +324,13 @@ export default function Home() {
 
 <section
   id="vision"
-  className="w-full bg-[#071a3a] border-y border-white/10 px-6 py-24 md:px-10 scroll-mt-24"
+  className="w-full bg-slate-900 border-y border-white/10 px-6 py-24 md:px-10 scroll-mt-24"
 >
   <div className="mx-auto max-w-5xl text-center">
     <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
       The Vision
     </div>
-    <h2 className="mt-4 text-4xl font-bold text-white md:text-6xl leading-tight">
+    <h2 className="mt-4 text-3xl font-bold text-white md:text-5xl leading-tight">
       We want to help young people stop gambling and start building.
     </h2>
     <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-300">
