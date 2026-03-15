@@ -5,8 +5,8 @@ export default function Home() {
 
   const milestones = [
     { amount: "$10k", label: "Research, user interviews, and recovery-focused app planning" },
-    { amount: "$20k", label: "Core MVP build with streak tracking, blockers, and productivity tools" },
-    { amount: "$35k", label: "Beta launch for young adults with coaching and accountability features" },
+    { amount: "$20k", label: "Core Beta build with streak tracking, blockers, and productivity tools" },
+    { amount: "$35k", label: "First launch for young adults with coaching and accountability features" },
     { amount: "$50k", label: "Public launch, onboarding, and scholarship access for users who need help most" },
   ];
 
