@@ -181,14 +181,15 @@ export default function Home() {
         </div>
       </section>
       <section id="vision" className="mx-auto max-w-7xl px-6 py-16 md:px-10">
-        <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:px-10 lg:grid-cols-[1.1fr_0.9fr]">
-          <div>
-            <div className="mx-auto my-24 max-w-6xl px-6">
-  <div className="my-24 w-full">
-  <div className="h-px w-full bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent"></div>
-<div className="my-24 w-full">
-  <div className="h-px w-full bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent" />
-</div>
+  <div className="mx-auto my-24 max-w-6xl px-6">
+    <div className="my-24 w-full">
+      <div className="h-px w-full bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent" />
+    </div>
+    <div className="my-24 w-full">
+      <div className="h-px w-full bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent" />
+    </div>
+  </div>
+</section>
 
 <section id="problem" className="w-full px-6 py-28 md:px-10 scroll-mt-24">
   <div className="mx-auto max-w-6xl text-center">
@@ -391,5 +392,7 @@ This project was born from the desire to address that problem. The goal of this 
 Every contribution helps move this mission forward and brings us closer to building a tool that can support thousands of young adults seeking a healthier and more purposeful path.
 </p>
 </section>
-      <div className="h-24" />
-    </main> 
+    <div className="h-24" />
+</main>
+);
+}
