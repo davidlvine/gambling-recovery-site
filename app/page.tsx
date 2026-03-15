@@ -190,8 +190,8 @@ export default function Home() {
   <div className="h-px w-full bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent" />
 </div>
 
-<section id="problem" className="mx-auto max-w-7xl px-6 py-28 md:px-10 scroll-mt-24">
-  <div className="mx-auto max-w-3xl text-center">
+<section id="problem" className="w-full px-6 py-28 md:px-10 scroll-mt-24">
+  <div className="mx-auto max-w-6xl text-center">
     <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
       The Problem
     </div>
