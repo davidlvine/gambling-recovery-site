@@ -316,10 +316,9 @@ export default function Home() {
 </section>
 
 <section
-  id="vision"
-  className="w-full bg-slate-900 border-y border-white/10 px-6 py-24 md:px-10 scroll-mt-24"
+  className="w-full bg-slate-900 border-y border-white/10 px-6 py-24 md:px-10"
 >
-  <div className="mx-auto max-w-5xl text-center">
+  <div id="vision" className="mx-auto max-w-5xl text-center scroll-mt-24">
     <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
       The Vision
     </div>
