@@ -322,19 +322,24 @@ export default function Home() {
   </p>
 </section>
 
-<section id="vision" className="mx-auto max-w-7xl px-6 py-16 md:px-10">
-  <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
-    The vision
+<section
+  id="vision"
+  className="w-full bg-[#071a3a] border-y border-white/10 px-6 py-24 md:px-10 scroll-mt-24"
+>
+  <div className="mx-auto max-w-5xl text-center">
+    <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
+      The Vision
+    </div>
+    <h2 className="mt-4 text-4xl font-bold text-white md:text-6xl leading-tight">
+      We want to help young people stop gambling and start building.
+    </h2>
+    <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-300">
+      This campaign funds the creation of an app focused on intervention, accountability, and forward momentum.
+    </p>
+    <p className="mx-auto mt-4 max-w-3xl text-lg leading-8 text-slate-300">
+      The goal is simple: help users replace destructive habits with productive action.
+    </p>
   </div>
-  <h2 className="mt-3 text-3xl font-bold md:text-4xl">
-    We want to help young people stop gambling and start building.
-  </h2>
-  <p className="mt-5 leading-8 text-slate-300">
-    This campaign funds the creation of an app focused on intervention, accountability, and forward momentum.
-  </p>
-  <p className="mt-4 leading-8 text-slate-300">
-    The goal is simple: help users replace destructive habits with productive action.
-  </p>
 </section>
       <section className="mx-auto max-w-7xl px-6 py-16 md:px-10">
          <div className="flex flex-col gap-6">
