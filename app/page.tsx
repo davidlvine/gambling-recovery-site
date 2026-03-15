@@ -184,7 +184,7 @@ export default function Home() {
 
 </section>
 
-<section id="problem" className="w-full px-6 py-16 md:px-10 scroll-mt-24">
+<section id="problem" className="w-full px-6 py-12 md:px-10 scroll-mt-24">
   <div className="mx-auto max-w-6xl text-center">
     <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
       The Problem
