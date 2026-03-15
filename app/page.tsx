@@ -162,7 +162,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full bg-slate-900 border-y border-white/10 px-6 py-24 md:px-10 scroll-mt-24">
+      <section className="w-full bg-slate-900 px-6 py-16 md:px-10 scroll-mt-24">
         <div className="mx-auto max-w-6xl text-center">
           <div className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-300">Why this matters</div>
           <h2 className="mt-3 text-3xl font-bold md:text-4xl">A modern recovery app for a generation losing time, money, and momentum.</h2>
@@ -181,14 +181,10 @@ export default function Home() {
         </div>
       </section>
       <section id="vision" className="mx-auto max-w-7xl px-6 py-16 md:px-10">
-  <div className="mx-auto my-12 max-w-6xl px-6">
-  <div className="w-full">
-    <div className="h-px w-full bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent" />
-  </div>
-</div>
+
 </section>
 
-<section id="problem" className="w-full px-6 py-28 md:px-10 scroll-mt-24">
+<section id="problem" className="w-full px-6 py-16 md:px-10 scroll-mt-24">
   <div className="mx-auto max-w-6xl text-center">
     <div className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
       The Problem
